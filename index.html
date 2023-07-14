@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+</head>
+<body>
+    <header>
+        <h1 class="header">Periodic Table</h1>
+    </header>
+    <div class="left">
+    <div class="container">
+        <div class="row" id="row1">
+            <button class="button" id="hydrogen">
+                <p class="atomicN">1</p>
+                <h2>H</h2>
+            </button>
+        <div class="right">
+            <button class="button he" id="noble">
+                <p class="atomicN">2</p>
+                <h2>He</h2>
+            </button>
+        </div>
+        </div>
+
+        <div class="row" id="row2">
+            <button class="button li" id="aMetals">
+                <p class="atomicN">3</p>
+                <h2>Li</h2>
+            </button>
+
+            <button class="button be" id="aeMetals">
+                <p class="atomicN">4</p>
+                <h2>Be</h2>
+            </button>
+        <div class="right">
+            <button class="button bo" id="metalloids">
+                <p class="atomicN">5</p>
+                <h2>B</h2>
+            </button>
+            <button class="button c" id="nonM">
+                <p class="atomicN">6</p>
+                <h2>C</h2>
+            </button>
+            <button class="button n" id="nonM">
+                <p class="atomicN">7</p>
+                <h2>N</h2>
+            </button>
+            <button class="button o" id="nonM">
+                <p class="atomicN">8</p>
+                <h2>O</h2>
+            </button>
+            <button class="button f" id="nonM">
+                <p class="atomicN">9</p>
+                <h2>F</h2>
+            </button>
+            <button class="button" id="noble">
+                <p class="atomicN">10</p>
+                <h2>Ne</h2>
+            </button>
+        </div>
+        </div>
+
+        <div class="row" id="row3">
+            <button class="button" id="aMetals">
+                <p class="atomicN">11</p>
+                <h2>Na</h2>
+            </button>
+            <button class="button" id="aeMetals">
+                <p class="atomicN">12</p>
+                <h2>Mg</h2>
+            </button>
+        <div class="right">
+            <button class="button" id="ptMetals">
+                <p class="atomicN">13</p>
+                <h2>Al</h2>
+            </button>
+            <button class="button" id="metalloids">
+                <p class="atomicN">14</p>
+                <h2>Si</h2></button>
+            <button class="button" id="nonM"> 
+                <p class="atomicN">15</p>
+                <h2>P</h2></button>
+            <button class="button" id="nonM">
+                <p class="atomicN">16</p>
+                <h2>S</h2>
+            </button>
+            <button class="button" id="nonM">
+                <p class="atomicN">17</p>
+                <h2>Cl</h2>
+            </button>
+            <button class="button" id="noble">
+                <p class="atomicN">18</p>
+                <h2>Ar</h2>
+            </button>
+        </div>
+        </div>
+
+        <div class="row" id="row4">
+            <button class="button" id="aMetals">
+            <p class="atomicN">19</p>
+            <h2>K</h2>
+            </button>
+            <button class="button" id="aeMetals">
+                <p class="atomicN">20</p>
+                <h2>Ca</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">21</p>
+               <h2>Sc</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">22</p>
+            <h2>Te</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">23</p>
+                <h2>V</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">24</p>
+                <h2>Cr</h2></button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">25</p>
+            <h2>Mn</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">26</p>
+                <h2>Fe</h2></button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">27</p>
+            <h2>Co</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">28</p>
+                <h2>Ni</h2></button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">29</p>
+            <h2>Cu</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">30</p>
+            <h2>Zn</h2>
+            </button>
+            <button class="button" id="ptMetals">
+                <p class="atomicN">31</p>
+            <h2>Ga</h2>
+            </button>
+            <button class="button" id="metalloids">
+                <p class="atomicN">32</p>
+            <h2>Ge</h2>
+            </button>
+            <button class="button" id="metalloids">
+                <p class="atomicN">33</p>
+            <h2>As</h2>
+            </button>
+            <button class="button" id="nonM">
+                <p class="atomicN">34</p>
+            <h2>Se</h2>
+            </button>
+            <button class="button" id="nonM">
+                <p class="atomicN">35</p>
+            <h2>Br</h2>
+            </button>
+            <button class="button" id="noble">
+                <p class="atomicN">36</p>
+            <h2>Kr</h2>
+            </button>
+        </div>
+
+        <div class="row" id="row5">
+            <button class="button" id="aMetals">
+                <p class="atomicN">37</p>
+                <h2>Rb</h2>
+            </button>
+            <button class="button" id="aeMetals">
+                <p class="atomicN">38</p>
+            <h2>Sr</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">39</p>
+            <h2>Y</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">40</p>
+            <h2>Zr</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">41</p>
+            <h2>Nb</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">42</p>
+            <h2>Mo</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">43</p>
+            <h2>Tc</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">44</p>
+                <h2>Ru</h2></button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">45</p>
+            <h2>Rh</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">46</p>
+            <h2>Pd</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">47</p>
+            <h2>Ag</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">48</p>
+            <h2>Cd</h2>
+            </button>
+            <button class="button" id="ptMetals">
+                <p class="atomicN">49</p>
+            <h2>In</h2>
+            </button>
+            <button class="button" id="ptMetals">
+                <p class="atomicN">50</p>
+            <h2>Sn</h2>
+            </button>
+            <button class="button" id="metalloids">
+                <p class="atomicN">51</p>
+            <h2>Sb</h2>
+            </button>
+            <button class="button" id="metalloids">
+                <p class="atomicN">52</p>
+            <h2>Te</h2>
+            </button>
+            <button class="button" id="nonM">
+                <p class="atomicN">53</p>
+                <h2>I</h2></button>
+            <button class="button" id="noble">
+                <p class="atomicN">54</p>
+            <h2>Xe</h2>
+            </button>
+        </div>
+
+        <div class="row" id="row6">
+            <button class="button" id="aMetals">
+                <p class="atomicN">55</p>
+               <h2>Cs</h2>
+            </button>
+            <button class="button" id="aeMetals">
+                <p class="atomicN">56</p>
+               <h2>Ba</h2>
+            </button>
+            <button class="button" id="Lanthanides">
+                <p class="atomicN">La</p>
+            <h2>*</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">72</p>
+            <h2>Hf</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">73</p>
+            <h2>Ta</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">74</p>
+            <h2>W</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">75</p>
+            <h2>Re</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">76</p>
+            <h2>Os</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">77</p>
+            <h2>Ir</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">78</p>
+            <h2>Pt</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">79</p>
+            <h2>Au</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">80</p>
+            <h2>Hg</h2>
+            </button>
+            <button class="button" id="ptMetals">
+                <p class="atomicN">81</p>
+            <h2>Tl</h2>
+            </button>
+            <button class="button" id="ptMetals">
+                <p class="atomicN">82</p>
+            <h2>Pb</h2>
+            </button>
+            <button class="button" id="ptMetals">
+                <p class="atomicN">83</p>
+            <h2>Bi</h2>
+            </button>
+            <button class="button" id="ptMetals">
+                <p class="atomicN">84</p>
+            <h2>Po</h2>
+            </button>
+            <button class="button" id="ptMetals">
+                <p class="atomicN">85</p>
+            <h2>At</h2>
+            </button>
+            <button class="button" id="noble">
+                <p class="atomicN">86</p>
+            <h2>Rn</h2>
+            </button>
+        </div>
+
+        <div class="row" id="row7">
+            <button class="button" id="aMetals">
+                <p class="atomicN">87</p>
+            <h2>Fr</h2>
+            </button>
+            <button class="button" id="aeMetals">
+                <p class="atomicN">88</p>
+            <h2>Ra</h2>
+            </button>
+            <button class="button" id="Actinides">
+                <p class="atomicN">Ac</p>
+            <h2>**</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">104</p>
+            <h2>Rf</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">105</p>
+            <h2>Db</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">106</p>
+            <h2>Sg</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">107</p>
+            <h2>Bh</h2>
+            </button>
+            <button class="button" id="tMetals">
+                <p class="atomicN">108</p>
+            <h2>Hs</h2>
+            </button>
+            <button class="button" id="unknownP">
+                <p class="atomicN">109</p>
+            <h2>Mt</h2>
+            </button>
+            <button class="button" id="unknownP">
+                <p class="atomicN">110</p>
+            <h2>Ds</h2>
+            </button>
+            <button class="button" id="unknownP">
+                <p class="atomicN">111</p>
+            <h2>Rg</h2>
+            </button>
+            <button class="button" id="unknownP">
+                <p class="atomicN">112</p>
+            <h2>Cn</h2>
+            </button>
+            <button class="button" id="unknownP">
+                <p class="atomicN">113</p>
+            <h2>Nh</h2>
+            </button>
+            <button class="button" id="unknownP">
+                <p class="atomicN">114</p>
+            <h2>Fl</h2>
+            </button>
+            <button class="button" id="unknownP">
+                <p class="atomicN">115</p>
+            <h2>Mc</h2>
+            </button>
+            <button class="button" id="unknownP">
+                <p class="atomicN">116</p>
+            <h2>Lv</h2>
+            </button>
+            <button class="button" id="unknownP">
+                <p class="atomicN">117</p>
+            <h2>Ts</h2>
+            </button>
+            <button class="button" id="unknownP">
+                <p class="atomicN">118</p>
+            <h2>Og</h2>
+            </button>
+        </div>
+        
+        <div class="row pt2" id="row8">
+            <button class="button" id="Lanthanides">
+                <p class="atomicN">57</p>
+            <h2>La</h2>
+            </button>
+            </button>
+            <button class="button" id="Lanthanides">
+                <p class="atomicN">58</p>
+            <h2>Ce</h2>
+            </button>
+            <button class="button" id="Lanthanides">
+                <p class="atomicN">59</p>
+            <h2>Pr</h2>
+            </button>
+            <button class="button" id="Lanthanides">
+                <p class="atomicN">60</p>
+            <h2>Nd</h2>
+            </button>
+            <button class="button" id="Lanthanides">
+                <p class="atomicN">61</p>
+            <h2>Pm</h2>
+            </button>
+            <button class="button" id="Lanthanides">
+                <p class="atomicN">62</p>
+            <h2>Sm</h2>
+            </button>
+            <button class="button" id="Lanthanides">
+                <p class="atomicN">63</p>
+            <h2>Eu</h2>
+            </button>
+            <button class="button" id="Lanthanides">
+                <p class="atomicN">64</p>
+            <h2>Gd</h2>
+            </button>
+            <button class="button" id="Lanthanides">
+                <p class="atomicN">65</p>
+            <h2>Tb</h2>
+            </button>
+            <button class="button" id="Lanthanides">
+                <p class="atomicN">66</p>
+            <h2>Dy</h2>
+            </button>
+            <button class="button" id="Lanthanides">
+                <p class="atomicN">67</p>
+            <h2>Ho</h2>
+            </button>
+            <button class="button" id="Lanthanides">
+                <p class="atomicN">68</p>
+            <h2>Er</h2>
+            </button>
+            <button class="button" id="Lanthanides">
+                <p class="atomicN">69</p>
+            <h2>Tm</h2>
+            </button>
+            <button class="button" id="Lanthanides">
+                <p class="atomicN">70</p>
+            <h2>Yb</h2>
+            </button>
+            <button class="button" id="Lanthanides">
+                <p class="atomicN">71</p>
+            <h2>Lu</h2>
+            </button>
+        </div>
+
+        <div class="row" id="row9">
+            <button class="button" id="Actinides">
+                <p class="atomicN">89</p>
+            <h2>Ac</h2>
+            </button>
+            </button>
+            <button class="button" id="Actinides">
+                <p class="atomicN">90</p>
+            <h2>Th</h2>
+            </button>
+            <button class="button" id="Actinides">
+                <p class="atomicN">91</p>
+            <h2>Pa</h2>
+            </button>
+            <button class="button" id="Actinides">
+                <p class="atomicN">92</p>
+            <h2>U</h2>
+            </button>
+            <button class="button" id="Actinides">
+                <p class="atomicN">93</p>
+            <h2>Np</h2>
+            </button>
+            <button class="button" id="Actinides">
+                <p class="atomicN">94</p>
+            <h2>Pu</h2>
+            </button>
+            <button class="button" id="Actinides">
+                <p class="atomicN">95</p>
+            <h2>Am</h2>
+            </button>
+            <button class="button" id="Actinides">
+                <p class="atomicN">96</p>
+            <h2>Cm</h2>
+            </button>
+            <button class="button" id="Actinides">
+                <p class="atomicN">97</p>
+            <h2>Bk</h2>
+            </button>
+            <button class="button" id="Actinides">
+                <p class="atomicN">98</p>
+            <h2>Cf</h2>
+            </button>
+            <button class="button" id="Actinides">
+                <p class="atomicN">99</p>
+            <h2>Es</h2>
+            </button>
+            <button class="button"  id="Actinides">
+                <p class="atomicN">100</p>
+            <h2>Fm</h2>
+            </button>
+            <button class="button" id="Actinides">
+                <p class="atomicN">101</p>
+            <h2>Md</h2>
+            </button>
+            <button class="button" id="Actinides">
+                <p class="atomicN">102</p>
+            <h2>No</h2>
+            </button>
+            <button class="button" id="Actinides">
+                <p class="atomicN">103</p>
+            <h2>Lr</h2>
+            </button>
+        </div>
+    </div>
+</div>
+ 
+<div class="logs">
+  <table>
+    <table>
+        <tr>
+          <td class="aMetals" id="aMetals">Alkaline Metals</td>
+          <td class="aeMetals" id="aeMetals">Alkaline Earth Metals</td>
+          <td class="tMetals" id="tMetals">Transition Metals</td>
+          <td class="ptMetals" id="ptMetals">Post Transition Metals</td>
+        </tr>
+        <tr>
+          <td class="metalloids" id="metalloids">Metalloids</td>
+          <td class="nonM" id="nonM">Reactive non-metals</td>
+          <td class="noble" id="noble">Noble gases</td>
+          <td class="Lanthanides" id="Lanthanides">Lanthanides</td>
+        </tr>
+        <tr>
+            <td class="Actinides" id="Actinides">Actinides</td>
+            <td class="unknownP" id="unknownP">Unknown properties</td>
+        </tr>
+  </table>
+</div>
+
+
+<!-- Hydrogen -->
+<div class="info h-info" id="hydrogen">                
+    <div class="header-info">
+    <button class="button" id="hydrogen">
+    <p class="atomicN">1</p>
+    <h2>H</h2>
+    </button>
+    <h1>Hydrogen</h1>
+</div>
+    <ul class="list">
+        <li>Symbol: H</li>
+        <li>Atomic mass: 1.00784 u</li>
+        <li>Atomic number: 1</li>
+        <li>Boiling point: -252.9 °C</li>
+        <li>Van der Waals radius: 120 pm</li>
+        <li>Discoverer: Henry Cavendish</li>
+        <li>Appearance: colorless gas</li>
+    </ul>
+</div>
+
+<!-- Helium -->
+<div class="info he-info helium" id="noble">                
+    <div class="header-info">
+    <button class="button" id="noble">
+    <p class="atomicN">2</p>
+    <h2>He</h2>
+    </button>
+    <h1>Helium</h1>
+</div>
+    <ul class="list">
+        <li>Symbol: He</li>
+        <li> Atomic number: 2</li> 
+        <li>Electron configuration: 1s2 </li>
+        <li>   Discovered: 1868 </li>
+        <li> Boiling point: -268.9 °C</li> 
+        <li> Discoverer: Pierre Janssen</li>
+    </ul>
+</div>
+<!-- Lithium -->
+<div class="info li-info lithium" id="aMetals">                
+    <div class="header-info">
+    <button class="button" id="aMetals">
+    <p class="atomicN">3</p>
+    <h2>Li</h2>
+    </button>
+    <h1>Lithium</h1>
+</div>
+    <ul class="list">
+        <li>Symbol: Li</li>
+        <li> Atomic number: 3</li> 
+        <li>Atomic mass: 6.941 u</li> 
+        <li>Melting point: 180.5 °C</li> 
+        <li>Electron configuration: 1s²2s¹</li>
+        <li>Electrons per shell: 2,1</li>
+    </ul>
+</div>
+<!-- be -->
+<div class="info be-info beryllium" id="aeMetals">                
+    <div class="header-info">
+    <button class="button" id="aeMetals">
+    <p class="atomicN">4</p>
+    <h2>Be</h2>
+    </button>
+    <h1>Beryllium</h1>
+</div>
+    <ul class="list">
+        <li>Symbol: Be</li>
+        <li> Atomic number: 4</li> 
+        <li>Atomic mass: 9.0122 u</li> 
+        <li>Melting point: 1286.85°C</li> 
+        <li>Electron configuration: [He] 2s²</li>
+        <li>Discoverer: Louis Nicolas Vauquelin</li>
+    </ul>
+</div>
+<!-- b -->
+<div class="info b-info" id="metalloids">                
+    <div class="header-info">
+    <button class="button" id="metalloids">
+    <p class="atomicN">5</p>
+    <h2>B</h2>
+    </button>
+    <h1>Boron</h1>
+</div>
+    <ul class="list">
+        <li>Symbol: B</li>
+        <li> Atomic number: 5</li> 
+        <li>Atomic mass: 10.811 u</li> 
+        <li>Melting point: 2076°C</li> 
+        <li>Electron configuration: [He] 2s²2p¹</li>
+    </ul>
+</div>
+
+<!-- c -->
+<div class="info c-info" id="nonM">                
+    <div class="header-info">
+    <button class="button" id="nonM">
+    <p class="atomicN">6</p>
+    <h2>C</h2>
+    </button>
+    <h1>Carbon</h1>
+</div>
+    <ul class="list">
+        <li>Symbol: C</li>
+        <li> Atomic number: 6</li> 
+        <li>Atomic mass: 12.011 u</li> 
+        <li>Electron configuration: [He] 2s22p2</li>
+        <li>Discoverer:Egyptians and Sumerians</li>
+    </ul>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js" integrity="sha512-lJDBw/vKlGO8aIZB8/6CY4lV+EMAL3qzViHid6wXjH/uDrqUl+uvfCROHXAEL0T/bgdAQHSuE68vRlcFHUdrUw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js" integrity="sha512-8Wy4KH0O+AuzjMm1w5QfZ5j5/y8Q/kcUktK9mPUVaUoBvh3QPUZB822W/vy7ULqri3yR8daH3F58+Y8Z08qzeg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="app.js"></script>
+</body>
+</html>
+
+<!-- n-->
+<!-- <div class="info n-info" id="nonM">                
+    <div class="header-info">
+    <button class="button" id="nonM">
+    <p class="atomicN">7</p>
+    <h2>N</h2>
+    </button>
+    <h1>Nitrogen</h1>
+</div>
+    <ul class="list">
+        <li>Symbol: N</li>
+        <li>Atomic mass:14.007u </li>
+        <li> Melting point:-210.01°C (63.14 K)</li> 
+        <li>Boiling point:-195.79°C (77.36 K)</li> 
+        <li>Discovery date:1772</li>
+        <li>Discovered by:Daniel Rutherford</li>
+    </ul>
+</div>
+
+
+
+
+</div>
+   
